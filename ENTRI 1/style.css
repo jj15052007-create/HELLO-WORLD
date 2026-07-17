@@ -1,0 +1,27 @@
+ h2 {
+            color: black;
+        }
+        h3 {
+            color: purple;
+        }
+        h4 {
+            color: orange;
+        }
+        h5 {
+            color: red;
+        }
+        h6 {
+            color: brown;
+        }
+
+        /* id selector */
+        #head-2 {
+            color: blue;
+            font-size: 50px;
+        }
+        /* class selector */
+        .theme-color {  
+            color: pink; 
+            text-align: center; 
+
+        }
