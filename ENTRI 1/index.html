@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+    // internal css
+    <style>
+        /* tag selector */
+        /* h2 {
+            color: green;
+        }
+        h3 {
+            color: purple;
+        }
+        h4 {
+            color: orange;
+        }
+        h5 {
+            color: red;
+        }
+        h6 {
+            color: brown;
+        }
+
+        /* id selector */
+        /* #head-2 {
+            color: blue;
+            font-size: 50px;
+        }
+        /* class selector */
+        /* .theme-color {  
+            color: pink; 
+            text-align: center;
+
+         } */
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+
+    <!-- headings tags -->
+
+    //1.inline css -> add -> style attribute in the tag
+
+    <h1 style="color:yellow;">Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3 class="theme-color">Heading 3</h3>
+    <h4 id="head-2">Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>
+    loreem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+    </p>
+    </-- unpaired tag -->
+    <img src="IMAGE/hill-img.jpg" alt="Description of the image">
+</--paired tag -->
+  <a href="register.html">
+    register now!!!
+   </a>
+   <!-- order list -->
+
+   <ol type="A">
+    <li>mac book
+        <ol>  
+            <li>mac book pro</li>
+            <li>mac book air</li>
+        </ol>
+    </li>
+    <li>hp laptop
+        <ol type="square">
+            <li>hp pavilion</li>
+            <li>hp envy</li>
+        </ol>
+    </li>
+    <li>lenovo thinkpad
+        <ol>
+            <li>lenovo thinkpad x1 carbon</li>
+            <li>lenovo thinkpad t14</li>
+        </ol>   
+    </li>
+    </ol>
+
+    <!-- unordered list -->
+    <ul type="square">
+        <li>mac book</li>
+        <li>hp laptop</li>
+        <li>lenovo thinkpad</li>
+    </ul>
+    <dl>
+        <dt>mac book</dt>
+        <dd>A high-performance laptop.</dd>
+        <dt>hp laptop</dt>
+
+        <dd>A reliable and versatile laptop.</dd>
+        <dt>lenovo thinkpad</dt>
+        <dd>A durable and secure laptop.</dd>
+    </dl>
+    <!--row, cols , border-->
+    <table
+    border="1">
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>MacBook Pro</td>
+                <td>$1,299</td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>Pavilion</td>
+                <td>$799</td>
+            </tr>
+            <tr>
+                <td>Lenovo</td>
+                <td>ThinkPad X1 Carbon</td>
+                <td>$1,499</td>
+            </tr>
+    </table>
+
+    <!-- semantic tags -->
+
+    <section>
+    <nav></nav>
+    <aside></aside>
+    <article>
+
+
+    </article>
+
+
+
+<br>
+<hr>
+<br>
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" />
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" />
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Enter your password" />
+        <label for="male">
+          male :
+        </label>
+        <input type="radio" id="male" name="gender" value="male"/>
+        <label for="female">
+          female :
+        </label>
+        <input type="radio" id="female" name="gender" value="female"/>
+        <label for="email">
+            Email:
+        </label>
+        <input id="email" type="email" placeholder="Enter your email" />
+        <button>Register now!!!</button>
+
+    </form>
+
+
+    <br>
+    
+
+
+
+
+    
+</body>
+</html>
